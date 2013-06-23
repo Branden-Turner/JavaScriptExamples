@@ -1,0 +1,27 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "zdepth": 1,
+      "animations":
+      {
+        "Anim": "bullet_animation.json"
+      },
+      "currentAnimation":"Anim"
+    },
+    "PhysicsComponent":
+    {},
+    "ColliderComponent":
+    {
+      "mXExtent":5,
+      "mYExtent":5,
+      "mIsProjectile": true
+    },
+    "ProjectileComponent":
+    {},
+    "Light":
+    {
+    }
+  }
+}

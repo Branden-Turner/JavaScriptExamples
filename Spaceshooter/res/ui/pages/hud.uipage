@@ -1,0 +1,10 @@
+{
+  "type": "UIWindow",
+  "id": "HUD",
+  "children":
+  [
+    {"type": "UIText", "class": "HUDElement", "id": "Score", "text": "0"},
+    {"type": "UIText", "class": "HUDElement", "id": "EnemyCounter", "text": "0"},
+    {"type": "UIText", "class": "HUDElement", "id": "WaveCounter", "text": "0"}
+  ]
+}

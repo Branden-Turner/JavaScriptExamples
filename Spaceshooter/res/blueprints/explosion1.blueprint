@@ -1,0 +1,25 @@
+{
+  "components":
+  {
+    "ParticleEmitter":
+    {
+      "zdepth": 2,
+      "life": 0.5,
+      "loop": false,
+      "imageURL": "particles/particle.png",
+      "maxParticles": 100,
+      "spawnPerSecond": 400,
+      "spawnDirectionSpread": 6.28,
+      "spawnSpeed": 200,
+      "spawnSpeedSpread": 10,
+      "speedDecay": 0.91,
+      "speedDecaySpread": 0.05,
+      "particleLife": 0.6,
+      "particleLifeSpread": 0.2,
+      "alphaKeys": [{"time": 0, "val": 0.7}, {"time": 0.2, "val": 0.7}, {"time": 1, "val": 0.2}]
+    },
+    "Light":
+    {
+    }
+  }
+}

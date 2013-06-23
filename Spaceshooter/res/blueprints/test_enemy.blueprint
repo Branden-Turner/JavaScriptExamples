@@ -1,0 +1,32 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "imageURL": "enemies/enemyship1.png"
+    },
+    "EnemyController":
+    {},
+    "PhysicsComponent":
+    {},
+    "WeaponsControlComponent":
+    {},
+    "ColliderComponent":
+    {
+      "mXExtent":24,
+      "mYExtent":24,
+      "mIsProjectile":false
+    },
+    "ShipDataComponent":
+    {
+      "mHealth": 20,
+      "mArmor": 5,
+      "mFriendly": false
+    },
+   "Light":
+    {
+      "radius": 45,
+      "level": 0.9
+    }
+  }
+}

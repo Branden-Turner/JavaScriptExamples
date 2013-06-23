@@ -1,0 +1,10 @@
+{
+  "type": "UIWindow",
+  "id": "HUD",
+  "children":
+  [
+    {"type": "UIText", "class": "HUDElement", "id": "HTPTitle", "text": "How To Play"},
+    {"type": "UIText", "class": "HUDElement", "id": "HTPBody", "text": "Movement\nW, A, S, D\n\nWeapons\nSpace - Fire\nMouse - Select Weapon\n1-4 - Weapon Groups\nctrl + 1-4 - Make Weapon Groups"},
+    {"type": "UIText", "class": "HUDElement", "id": "Back", "text": "Back"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "imageURL": "weapons/cannonspritesheet.png",
+  "frameWidth" : 20,
+  "frameHeight" : 30,
+  "frames":
+  [
+    { "frame": 0, "duration": 1 }
+  ]
+}

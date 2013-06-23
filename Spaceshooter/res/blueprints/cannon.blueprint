@@ -1,0 +1,24 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "zdepth": 1,
+      "animations":
+      {
+        "Idle": "cannon_idle_anim.json",
+        "IdleSelected": "cannon_s_idle_anim.json",
+        "Fired" : "fired_cannon_anim.json",
+        "FiredSelected" : "fired_s_cannon_anim.json"
+      }
+    },
+    "ColliderComponent":
+    {
+      "mXExtent":10,
+      "mYExtent":15,
+      "mIsProjectile":false
+    },
+    "WeaponCannonComponent":
+    {}
+  }
+}

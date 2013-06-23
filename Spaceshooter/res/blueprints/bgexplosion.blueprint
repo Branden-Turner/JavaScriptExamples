@@ -1,0 +1,25 @@
+{
+  "components":
+  {
+    "ParticleEmitter":
+    {
+      "zdepth": -3,
+      "life": 5.0,
+      "loop": false,
+      "imageURL": "particles/bgexp.png",
+      "maxParticles": 50,
+      "spawnPerSecond": 100,
+      "spawnDirectionSpread": 6.28,
+      "spawnSpeed": 50,
+      "spawnSpeedSpread": 10,
+      "speedDecay": 0.91,
+      "speedDecaySpread": 0.05,
+      "particleLife": 1.5,
+      "particleLifeSpread": 0.2,
+      "alphaKeys": [{"time": 0, "val": 0.7}, {"time": 0.2, "val": 0.7}, {"time": 1, "val": 0.2}]
+    },
+    "Light":
+    {
+    }
+  }
+}

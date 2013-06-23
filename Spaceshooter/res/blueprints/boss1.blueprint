@@ -1,0 +1,33 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "zdepth": 0,
+      "imageURL": "player/shittyspaceship.png"
+    },
+    "EnemyController":
+    {},
+    "PhysicsComponent":
+    {},
+    "WeaponsControlComponent":
+    {},
+    "ColliderComponent":
+    {
+      "mXExtent":100,
+      "mYExtent":35,
+      "mIsProjectile":false
+    },
+    "ShipDataComponent":
+    {
+      "mHealth": 80,
+      "mArmor": 10,
+      "mFriendly":false
+    },
+    "Light":
+    {
+      "radius": 100,
+      "level": 0.8
+    }
+  }
+}

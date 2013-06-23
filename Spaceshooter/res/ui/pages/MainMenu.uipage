@@ -1,0 +1,11 @@
+{
+  "type": "UIWindow",
+  "id": "HUD",
+  "children":
+  [
+    {"type": "UIText", "class": "HUDElement", "id": "WelcomeMessage", "text": "Welcome to Space Shooter!"},
+    {"type": "UIText", "class": "HUDElement", "id": "Start", "text": "Start Game"},
+    {"type": "UIText", "class": "HUDElement", "id": "Credits", "text": "Credits"},
+    {"type": "UIText", "class": "HUDElement", "id": "HTP", "text": "How To Play"}
+  ]
+}

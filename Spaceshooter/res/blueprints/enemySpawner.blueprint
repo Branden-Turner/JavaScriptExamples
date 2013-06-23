@@ -1,0 +1,30 @@
+{
+  "components":
+  {
+    "EnemySpawner":
+    {},
+    "ParticleEmitter":
+    {
+      "zdepth": 2,
+      "active": true,
+      "loop": true,
+      "imageURL": "particles/spawnerParticle.png",
+      "maxParticles": 300,
+      "spawnPerSecond": 30,
+      "spawnDirection": 0,
+      "spawnDirectionSpread": 6.28,
+      "spawnSpeed": 90,
+      "spawningActive" : true,
+      "spawnSpeedSpread": 25,
+      "speedDecay": 0.91,
+      "speedDecaySpread": 0.05,
+      "particleLife": 2.5,
+      "particleLifeSpread": 0.5,
+      "alphaKeys": [{"time": 0, "val": 0.7}, {"time": 0.2, "val": 0.7}, {"time": 1, "val": 0}],
+      "collisionEnabled":false
+    },
+    "Light":
+    {
+    }
+  }
+}

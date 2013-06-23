@@ -1,0 +1,10 @@
+{
+  "components":
+  {
+    "Renderable":
+    {
+      "zdepth": -5,
+      "imageURL": "backgrounds/starBG.jpg"
+    }
+  }
+}

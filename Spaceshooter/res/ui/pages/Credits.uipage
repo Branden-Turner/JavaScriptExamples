@@ -1,0 +1,11 @@
+{
+  "type": "UIWindow",
+  "id": "HUD",
+  "children":
+  [
+    {"type": "UIText", "class": "HUDElement", "id": "CreditsTitle", "text": "Credits"},
+    {"type": "UIText", "class": "HUDElement", "id": "CreditsBody", "text": "DEVELOPERS\nBranden Turner\nDane Curbow\nDavid Evans ( Tomato JS )\n\nGAME DIRECTOR\nJen Sward\n\nDIGIPEN DIRECTOR\nClaude Comair"},
+    {"type": "UIText", "class": "HUDElement", "id": "Copyright", "text": "Copyright © 2013 DigiPen (USA) Corp. and its owners. All rights reserved."},
+    {"type": "UIText", "class": "HUDElement", "id": "Back", "text": "Back"}
+  ]
+}

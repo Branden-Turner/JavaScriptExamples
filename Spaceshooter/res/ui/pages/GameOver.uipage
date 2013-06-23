@@ -1,0 +1,10 @@
+{
+  "type": "UIWindow",
+  "id": "HUD",
+  "children":
+  [
+    {"type": "UIText", "class": "HUDElement", "id": "GameOverMessage", "text": "Game Over"},
+    {"type": "UIText", "class": "HUDElement", "id": "Restart", "text": "Restart Game"},
+    {"type": "UIText", "class": "HUDElement", "id": "Quit", "text": "Main Menu"}
+  ]
+}

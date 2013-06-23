@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <!-- Include jquery ui css file here -->
+    <link rel="stylesheet" type="text/css" href="dep/css/smoothness/jquery-ui-1.9.2.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Include jquery and jquery ui javascript files here -->
+    <script type="text/javascript" src="dep/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="dep/jquery-ui-1.9.2.custom.min.js"></script>
+
+    <!-- Include TomatoJS here -->
+    <script type="text/javascript" src="tomatojs.js"></script>
+
+    <!-- Include additional engine systems here -->
+    <script type="text/javascript" src="res/systems/Physics.js"></script>
+    <script type="text/javascript" src="res/systems/GameLogic.js"></script>
+    <!-- Include additional engine components here -->
+    <script type="text/javascript" src="res/components/PlayerController.js"></script>
+    <script type="text/javascript" src="res/components/CameraComponent.js"></script>
+    <script type="text/javascript" src="res/components/PhysicsComponent.js"></script>
+    <script type="text/javascript" src="res/components/ColliderComponent.js"></script>
+    <script type="text/javascript" src="res/components/ShipDataComponent.js"></script>
+    <script type="text/javascript" src="res/components/ProjectileComponent.js"></script>
+    <script type="text/javascript" src="res/components/WeaponsControlComponent.js"></script>
+    <script type="text/javascript" src="res/components/EnemyController.js"></script>
+    <script type="text/javascript" src="res/components/EnemySpawner.js"></script>
+    <!-- Include your game specific files here -->
+    <script type="text/javascript" src="main.js"></script>
+
+  </head>
+  <body>
+    <script type="text/javascript">
+    $(document).ready(function()
+    {
+      main();
+    });
+    </script>
+  </body>
+</html>

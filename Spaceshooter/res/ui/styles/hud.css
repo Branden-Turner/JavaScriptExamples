@@ -1,0 +1,166 @@
+@font-face { font-family: "SpaceAge"; src: url("../../fonts/spaceage.ttf"); }
+
+#HUD
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.HUDElement
+{
+  font-family: "SpaceAge";
+  position: absolute;
+  font-size: 24px;
+  color: rgb(200, 200, 200);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  cursor: default;
+}
+
+#Score
+{
+  left: 25px;
+  top: 9px;
+}
+
+#EnemyCounter
+{
+  left: 25px;
+  top: 480px;
+}
+
+#WaveCounter
+{
+  left: 825px;
+  top: 9px;
+}
+
+#GameOverMessage
+{
+  left: 350px;
+  top: 180px;
+}
+
+#WelcomeMessage
+{
+  font-size: 28px;
+  left: 235px;
+  top: 170px;
+}
+
+#Restart
+{
+  left: 400px;
+  top: 220px;
+}
+
+#Restart:hover
+{
+  left: 400px;
+  top: 220px;
+  color: rgb(0,0,250);
+}
+
+#Quit
+{
+  left: 430px;
+  top: 240px;
+}
+
+#Quit:hover
+{
+  left: 430px;
+  top: 240px;
+  color: rgb(0,0,250);
+}
+
+#Start
+{
+  left: 410px;
+  top: 220px;
+}
+
+#Start:hover
+{
+  left: 410px;
+  top: 220px;
+  color: rgb(0,0,250);
+}
+
+#Credits
+{
+  left: 445px;
+  top: 255px;
+}
+
+#Credits:hover
+{
+  left: 445px;
+  top: 255px;
+  color: rgb(0,0,250);
+}
+
+#HTP
+{
+  left: 405px;
+  top: 290px;
+}
+
+#HTP:hover
+{
+  left: 405px;
+  top: 290px;
+  color: rgb(0,0,250);
+}
+
+
+#CreditsTitle
+{
+  font-size: 28px;
+  left: 405px;
+  top: 20px;
+}
+
+#CreditsBody
+{
+  left: 265px;
+  top: 110px;
+  white-space: pre-line;
+  text-align: center;
+}
+
+#HTPTitle
+{
+  font-size: 28px;
+  left: 375px;
+  top: 20px;
+}
+
+#HTPBody
+{
+  left: 215px;
+  top: 90px;
+  white-space: pre-line;
+  text-align: center;
+}
+
+#Copyright
+{
+  font-size: 16px;
+  left: 90px;
+  top: 450px;
+}
+
+#Back
+{
+  left: 440px;
+  top: 480px;
+}
+
+#Back:hover
+{
+  left: 440px;
+  top: 480px;
+  color: rgb(0,0,250);
+}
